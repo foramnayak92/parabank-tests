@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "parabank-tests"
+version = "0.1.0"
+description = "parabank test"
+authors = ["Foram Nayak"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest-pycharm = "^0.7.0"
+pytest-xml = "^0.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
